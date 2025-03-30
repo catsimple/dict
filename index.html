@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>单词配对游戏</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <!-- START: Main Game Content Wrapper -->
+        <div id="main-game-content">
+            <div class="controls">
+                <div class="score-container">分数: <span id="score">0</span></div>
+                <button id="reset-button">重置/下一轮</button>
+            </div>
+
+            <div id="matched-pairs-container">
+                <!-- Merged pairs will be added here by JS -->
+            </div>
+
+            <div id="english-row" class="word-row english-row">
+                <!-- 英文单词将由 JS 填充 -->
+            </div>
+            <div id="chinese-row" class="word-row chinese-row">
+                <!-- 中文单词将由 JS 填充 -->
+            </div>
+        </div>
+        <!-- END: Main Game Content Wrapper -->
+
+        <!-- START: Permanent Hint Area (Now a sibling to main content) -->
+        <div id="permanent-hint-area">
+             <p id="hint-placeholder">匹配单词或点击已匹配词组以查看详细信息。</p>
+             <div id="hint-content-wrapper"> <!-- Wrapper to easily show/hide content -->
+                <img id="hint-image" src="" alt="单词图片"> <!-- Alt text will be updated by JS -->
+                <p id="hint-english"></p>
+                <p id="hint-chinese"></p>
+                <p id="hint-description"></p>
+             </div>
+        </div>
+        <!-- END: Permanent Hint Area -->
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

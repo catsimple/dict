@@ -1,0 +1,548 @@
+[
+  {
+    "english": "Greeks",
+    "chinese": "希腊人",
+    "image": "images/greeks.jpg",
+    "description": "指古代居住在希腊半岛、爱琴海诸岛及周边殖民地的民族，是西方文明的重要源头之一。"
+  },
+  {
+    "english": "Ancient Middle East",
+    "chinese": "古代中东",
+    "image": "images/ancient_middle_east.png",
+    "description": "指包括美索不达米亚、埃及等地的古老文明区域，它们对早期希腊文明的发展产生了重要影响（如文字、神话、科学）。"
+  },
+  {
+    "english": "Western Tradition",
+    "chinese": "西方传统",
+    "image": "images/western_tradition.jpg",
+    "description": "指源自古希腊罗马，并在欧洲和受欧洲影响地区发展起来的文化、哲学、政治和社会规范的总和，古希腊是其重要奠基者。"
+  },
+  {
+    "english": "polis",
+    "chinese": "希腊城邦",
+    "image": "images/polis.jpg",
+    "description": "这是理解古希腊政治和社会结构的关键。指一个以城市为中心、包含周边乡村的独立政治实体，有自己的法律、政府和军队，是古希腊人身份认同的核心。"
+  },
+  {
+    "english": "Athenian Democracy",
+    "chinese": "雅典民主",
+    "image": "images/athenian_democracy.jpg",
+    "description": "虽然与现代民主制度不同（例如排除了女性、奴隶和外邦人），但它是西方民主思想的重要源头。其特点包括公民大会、五百人会议和陪审法庭。它是古希腊民主制度的代表。"
+  },
+  {
+    "english": "Minoan Crete",
+    "chinese": "米诺斯克里特文明",
+    "image": "images/minoan_crete.jpg",
+    "description": "爱琴海地区的早期青铜时代文明（约公元前2700-1450年），中心在克里特岛。以其宫殿建筑（如克诺索斯）、艺术和线性A文字为特征。"
+  },
+  {
+    "english": "Mycenaean Civilization",
+    "chinese": "迈锡尼文明",
+    "image": "images/mycenaean_civilization.jpg",
+    "description": "希腊青铜时代晚期（约公元前1600-1100年）的文明，主体在希腊大陆。以设防的宫殿中心、武士文化和线性B文字为特征，被认为是荷马史诗背景的一部分。"
+  },
+  {
+    "english": "Mesopotamia",
+    "chinese": "美索不达米亚",
+    "image": "images/mesopotamia.jpg",
+    "description": "位于底格里斯河和幼发拉底河之间的古代文明区域，是城市、文字（楔形文字）、法律和帝国的早期发源地之一，对希腊有文化影响。"
+  },
+  {
+    "english": "Egypt",
+    "chinese": "埃及",
+    "image": "images/egypt.jpg",
+    "description": "尼罗河流域的古老文明，以其法老统治、金字塔、象形文字和宗教体系闻名，与希腊有长期的文化和经济交流。"
+  },
+  {
+    "english": "Civilization",
+    "chinese": "文明",
+    "image": "images/civilization.jpg",
+    "description": "指具有发达的社会组织、城市、政府、书写系统、艺术和科学等的复杂人类社会状态。理解希腊文明的内涵和特点是学习西方历史的基础。"
+  },
+  {
+    "english": "Indebted",
+    "chinese": "感激的，欠...人情的",
+    "image": "images/indebted.jpg",
+    "description": "指西方文明在哲学、政治、艺术、科学等方面深受古希腊的影响，对其负有“知识和文化之债”。"
+  },
+  {
+    "english": "Ethical",
+    "chinese": "伦理的，道德的",
+    "image": "images/ethical.jpg",
+    "description": "相关的道德原则和价值观，是希腊哲学（苏格拉底、柏拉图、亚里士多德）探讨的核心主题，例如什么是正义、美德和“善的生活”。"
+  },
+  {
+    "english": "Aesthetic",
+    "chinese": "审美的",
+    "image": "images/aesthetic.jpg",
+    "description": "与美和艺术及其原理相关的。古希腊在建筑（比例、和谐）、雕塑、戏剧和哲学中都体现了独特的审美追求。"
+  },
+  {
+    "english": "Literary",
+    "chinese": "文学的",
+    "image": "images/literary.jpg",
+    "description": "与写作、研究或文学作品相关。古希腊是西方文学多种体裁的诞生地，包括史诗、悲剧、喜剧、历史和哲学著作。"
+  },
+  {
+    "english": "Political outlooks",
+    "chinese": "政治观点",
+    "image": "images/political_outlooks.jpg",
+    "description": "对政府形式和公共事务管理所持的看法和态度。古希腊世界存在从君主制、寡头制到僭主制和民主制等多种政治观点和实践。"
+  },
+  {
+    "english": "Institution",
+    "chinese": "制度，机构",
+    "image": "images/institution.jpg",
+    "description": "指社会中建立起来的具有特定功能的组织、习俗或法律体系，例如希腊城邦的公民大会、议事会、法庭或宗教节日等关键制度。"
+  },
+  {
+    "english": "Flourished",
+    "chinese": "繁荣，兴盛",
+    "image": "images/flourished.jpg",
+    "description": "形容文明、城邦、艺术或思想达到高度发展和成功的状态。例如，雅典在公元前5世纪古典时代达到了文化和政治的鼎盛期。"
+  },
+  {
+    "english": "Classical era",
+    "chinese": "古典时代",
+    "image": "images/classical_era.jpg",
+    "description": "通常指古希腊（约公元前5世纪至4世纪）和古罗马历史上的一个高峰时期，以其哲学、艺术、文学和政治成就对后世产生深远影响。"
+  },
+  {
+    "english": "Intellectual foundations",
+    "chinese": "知识基础",
+    "image": "images/intellectual_foundations.jpg",
+    "description": "指构成某个思想体系、文化或学科的基本原理和观念。古希腊哲学、科学和政治思想为西方知识传统奠定了重要基础。"
+  },
+  {
+    "english": "Heritage",
+    "chinese": "遗产",
+    "image": "images/heritage.jpg",
+    "description": "指从过去继承下来的、具有历史和文化价值的物质或非物质财富。古希腊在民主、哲学、艺术等方面留下了宝贵的文化遗产。"
+  },
+  {
+    "english": "Universe",
+    "chinese": "宇宙",
+    "image": "images/universe.jpg",
+    "description": "古希腊哲学家最早开始系统地探究宇宙的起源、结构和规律，试图用理性解释取代神话。这些关于宇宙的问题是西方科学和哲学的重要起点。"
+  },
+  {
+    "english": "Divine force",
+    "chinese": "神力",
+    "image": "images/divine_force.jpg",
+    "description": "指被认为是来自神或超自然力量的影响。虽然希腊哲学强调理性，但宗教信仰和对神力的敬畏在社会生活中仍扮演重要角色。"
+  },
+  {
+    "english": "Rational outlook",
+    "chinese": "理性观点",
+    "image": "images/rational_outlook.jpg",
+    "description": "强调使用逻辑推理和观察来理解世界，而不是仅仅依赖信仰、传统或神话。这是希腊哲学兴起的核心特征，对西方思想产生革命性影响。"
+  },
+  {
+    "english": "Evolution",
+    "chinese": "进化，演变",
+    "image": "images/evolution.jpg",
+    "description": "指事物随时间逐渐发展变化的过程。可用于描述希腊社会制度、政治思想、艺术风格或哲学观念的逐步形成和演变。"
+  },
+  {
+    "english": "Particularism",
+    "chinese": "地方主义，特殊主义",
+    "image": "images/particularism.jpg",
+    "description": "强调地方（城邦）的独立性和特殊利益，而非整体（泛希腊）的统一。这是古希腊政治格局的显著特点，导致城邦间既有合作也有频繁冲突。"
+  },
+  {
+    "english": "Nemesis",
+    "chinese": "报应，天谴",
+    "image": "images/nemesis.jpg",
+    "description": "在希腊神话和悲剧中，通常指由人的傲慢（hubris）或越界行为引起的、来自神祇的不可避免的惩罚或报应。"
+  },
+    {
+    "english": "Aegean Region",
+    "chinese": "爱琴海地区",
+    "image": "images/aegean_region.jpg",
+    "description": "指环绕爱琴海的区域，包括希腊半岛东部、小亚细亚西部及众多岛屿。这里是米诺斯、迈锡尼及后来的希腊城邦文明发展的核心地带。"
+  },
+  {
+    "english": "Crete",
+    "chinese": "克里特岛",
+    "image": "images/crete.jpg",
+    "description": "地中海上的大岛，是米诺斯文明的中心。"
+  },
+  {
+    "english": "Arthur Evans",
+    "chinese": "亚瑟·埃文斯",
+    "image": "images/arthur_evans.jpg",
+    "description": "英国考古学家，20世纪初在克里特岛发掘了克诺索斯宫殿遗址，揭示并命名了米诺斯文明。"
+  },
+  {
+    "english": "Minos",
+    "chinese": "米诺斯",
+    "image": "images/minos.jpg",
+    "description": "根据希腊神话，克里特岛的传奇国王，米诺斯文明因此得名。神话中他建造了迷宫囚禁牛头怪米诺陶。"
+  },
+  {
+    "english": "Knossos",
+    "chinese": "克诺索斯",
+    "image": "images/knossos.jpg",
+    "description": "克里特岛上米诺斯文明时期最大、最重要的宫殿遗址，被认为是米诺斯文明的政治和文化中心。"
+  },
+  {
+    "english": "King Minos",
+    "chinese": "米诺斯国王",
+    "image": "images/minos.jpg",
+    "description": "同Minos，指神话中的克里特统治者。"
+  },
+  {
+    "english": "Mycenaeans",
+    "chinese": "迈锡尼人",
+    "image": "images/mycenaeans.jpg",
+    "description": "指生活在希腊青铜时代晚期的居民，建立了迈锡尼文明。他们是讲希腊语的民族，后来可能征服了克里特岛。"
+  },
+  {
+    "english": "Dorian",
+    "chinese": "多利安人",
+    "image": "images/dorian.jpg",
+    "description": "希腊语的一个方言群体，传统上认为他们在约公元前1100年左右从北方（可能是巴尔干半岛）入侵希腊，导致迈锡尼文明崩溃和希腊进入“黑暗时代”。"
+  },
+  {
+    "english": "Balkans",
+    "chinese": "巴尔干半岛",
+    "image": "images/balkans.jpg",
+    "description": "欧洲东南部半岛，位于希腊北部，被认为是多利安人入侵前的可能来源地。"
+  },
+  {
+    "english": "Archaic Age",
+    "chinese": "古风时代",
+    "image": "images/archaic_age.jpg",
+    "description": "希腊历史上介于黑暗时代和古典时代之间（约公元前800-500年）的时期。此期间城邦（polis）形成、字母表传入、殖民运动兴起、艺术和哲学开始发展。"
+  },
+  {
+    "english": "Mediterranean Sea",
+    "chinese": "地中海",
+    "image": "images/mediterranean_sea.jpg",
+    "description": "环绕南欧、北非和西亚的大海，是古希腊人进行贸易、殖民和文化交流的主要舞台。"
+  },
+  {
+    "english": "Black Sea",
+    "chinese": "黑海",
+    "image": "images/black_sea.jpg",
+    "description": "位于欧洲东南部和亚洲之间的大海，是古希腊人（尤其是在古风时代）建立殖民地的重要区域，以获取谷物和资源。"
+  },
+  {
+    "english": "Asia Minor",
+    "chinese": "小亚细亚",
+    "image": "images/asia_minor.jpg",
+    "description": "指安纳托利亚半岛，位于现代土耳其。其西部沿海地区在古代有大量希腊城邦，是希腊文化和殖民的重要区域。"
+  },
+  {
+    "english": "Thrace",
+    "chinese": "色雷斯",
+    "image": "images/thrace.jpg",
+    "description": "位于巴尔干半岛东部的古代区域，北邻爱琴海。希腊人在此建立了殖民地。"
+  },
+  {
+    "english": "Sicily",
+    "chinese": "西西里岛",
+    "image": "images/sicily.jpg",
+    "description": "地中海最大的岛屿，位于意大利南部。古希腊人在此建立了许多重要的殖民城邦，如叙拉古。"
+  },
+  {
+    "english": "Italy",
+    "chinese": "意大利",
+    "image": "images/italy.jpg",
+    "description": "亚平宁半岛，其南部地区（称为“大希腊”，Magna Graecia）在古风时代有大量希腊殖民城邦。"
+  },
+  {
+    "english": "Individualism",
+    "chinese": "个人主义",
+    "image": "images/individualism.jpg",
+    "description": "强调个人价值、独立性和自主性的思想倾向。古希腊（特别是古典时代）见证了对人类潜能和理性的日益关注，是个人主义思想在西方的早期体现。"
+  },
+  {
+    "english": "Bronze Age",
+    "chinese": "青铜时代",
+    "image": "images/bronze_age.jpg",
+    "description": "以广泛使用青铜制造工具和武器为特征的历史时期。在希腊，主要指米诺斯和迈锡尼文明存在的时代（约公元前3000-1100年）。"
+  },
+  {
+    "english": "Archaeologist",
+    "chinese": "考古学家",
+    "image": "images/archaeologist.jpg",
+    "description": "通过发掘和研究古代遗址和文物来探索人类过去的学者。考古学对于我们理解没有文字记录或记录不完整的古希腊早期文明（如米诺斯和迈锡尼）至关重要。"
+  },
+  {
+    "english": "Fortified palace-centers",
+    "chinese": "设防的宫殿中心",
+    "image": "images/fortified_palace_centers.jpg",
+    "description": "特指迈锡尼文明时期的大型建筑群，如迈锡尼、梯林斯。它们不仅是统治者的居所，也是行政、军事、经济和宗教活动的中心，并建有厚实的防御工事。"
+  },
+  {
+    "english": "Appropriated",
+    "chinese": "占用，挪用",
+    "image": "images/appropriated.jpg",
+    "description": "指未经许可地占有或使用他人的东西（如土地、财产、思想或文化元素）。例如，可能涉及迈锡尼人对米诺斯文化的吸收或殖民过程中的土地占用。"
+  },
+  {
+    "english": "Colonization",
+    "chinese": "殖民",
+    "image": "images/colonization.jpg",
+    "description": "指一个群体（母邦）到其他地区建立定居点（殖民地）的过程。古希腊在古风时代进行了广泛的殖民活动，原因包括人口过剩、土地寻求和贸易扩展。"
+  },
+  {
+    "english": "Overpopulation",
+    "chinese": "人口过剩",
+    "image": "images/overpopulation.jpg",
+    "description": "指人口数量超过了特定区域资源（尤其是土地和食物）的承载能力，是推动古希腊向外殖民的重要因素之一。"
+  },
+  {
+    "english": "Infertile",
+    "chinese": "贫瘠的",
+    "image": "images/infertile.jpg",
+    "description": "形容土地不肥沃，难以生长农作物。希腊本土多山且部分地区土地贫瘠，也是促使部分希腊人寻求海外殖民地的原因。"
+  },
+  {
+    "english": "Colonies",
+    "chinese": "殖民地",
+    "image": "images/colonization.jpg",
+    "description": "指由来自母邦的人在其他地区建立的新的、通常保持一定政治或文化联系的定居点。古希腊在地中海和黑海沿岸建立了众多殖民地。"
+  },
+  {
+    "english": "Cultural exchange",
+    "chinese": "文化交流",
+    "image": "images/cultural_exchange.jpg",
+    "description": "指不同文化群体之间思想、习俗、技术、艺术等方面的相互影响和传播。希腊的殖民活动促进了希腊文化与地中海其他文化的交流。"
+  },
+  {
+    "english": "Political transformations",
+    "chinese": "政治变革",
+    "image": "images/political_transformations.jpg",
+    "description": "指政治结构、权力分配或治理方式发生的显著变化。古希腊经历了从早期君主制到寡头制、僭主制，再到部分城邦（如雅典）发展出民主制的深刻变革。"
+  },
+    {
+    "english": "Polycrates of Samos",
+    "chinese": "萨摩斯岛的波吕克拉底",
+    "image": "images/polycrates_of_samos.jpg",
+    "description": "公元前6世纪萨摩斯岛的僭主（Tyrant），以其财富、海军力量和宏大的公共工程（如引水隧道）而闻名。"
+  },
+  {
+    "english": "Cypselus of Corinth",
+    "chinese": "科林斯的库普塞罗斯",
+    "image": "images/cypselus_of_corinth.jpg",
+    "description": "公元前7世纪科林斯的第一位僭主，推翻了寡头统治。"
+  },
+  {
+    "english": "Cleisthenes of Athens",
+    "chinese": "克里斯提尼",
+    "image": "images/cleisthenes_of_athens.jpg",
+    "description": "雅典政治家（活跃于公元前6世纪末），通常被认为是雅典民主制度的主要奠基人。他通过改革（如设立十部落、五百人会议）打破了旧有贵族势力，扩大了公民参政基础。"
+  },
+  {
+    "english": "Areopagus",
+    "chinese": "阿瑞俄帕戈斯",
+    "image": "images/areopagus.jpg",
+    "description": "位于雅典卫城旁的小山丘，也是古代雅典一个古老而有声望的议事会（由卸任执政官组成）的名称。早期拥有广泛权力，后来其权力逐渐被削弱。"
+  },
+  {
+    "english": "Agrarian",
+    "chinese": "农业的",
+    "image": "images/agrarian.jpg",
+    "description": "与土地、农业生产和农民相关的。古希腊社会的基础是农业经济，土地所有权是社会地位和政治权利的重要基础，土地问题也常常引发社会冲突。"
+  },
+  {
+    "english": "Commercial",
+    "chinese": "商业的",
+    "image": "images/commercial.jpg",
+    "description": "与贸易、市场和商品交换相关的。随着殖民和航海的发展，商业在雅典等希腊城邦变得日益重要，催生了新的社会阶层（商人、水手）并影响了政治格局。"
+  },
+  {
+    "english": "Political privileges",
+    "chinese": "政治特权",
+    "image": "images/political_privileges.jpg",
+    "description": "指特定社会群体（如贵族、富人或公民）在参与政治、担任官职或影响决策方面享有的特殊权利或优势。"
+  },
+  {
+    "english": "Landed aristocrats",
+    "chinese": "拥有土地的贵族",
+    "image": "images/landed_aristocrats.jpg",
+    "description": "指依靠拥有大量土地而获得财富、社会地位和政治权力的贵族阶层。在早期希腊城邦中通常把持着寡头政权。"
+  },
+  {
+    "english": "Covet",
+    "chinese": "觊觎",
+    "image": "images/covet.jpg",
+    "description": "指强烈地渴望得到他人拥有的东西，例如权力、财富或地位。这可能驱动个人或群体采取行动来改变现状。"
+  },
+  {
+    "english": "Overthrow",
+    "chinese": "推翻",
+    "image": "images/overthrow.jpg",
+    "description": "指通过武力或革命手段移除现有的统治者或政府。在古希腊政治变迁中，寡头、僭主和民主政权之间相互推翻的情况时有发生。"
+  },
+  {
+    "english": "Oligarchy",
+    "chinese": "寡头政治",
+    "image": "images/oligarchy.jpg",
+    "description": "指由少数人（通常是富人、贵族或特定家族）掌握统治权的政体。这是许多古希腊城邦在发展过程中的一种常见政治形态。"
+  },
+  {
+    "english": "Tyranny",
+    "chinese": "僭主政治，暴政",
+    "image": "images/tyranny.jpg",
+    "description": "在古希腊语境下，“Tyrannos”最初指通过非世袭、非传统方式（常借助平民支持推翻寡头）获得个人独裁权力的人，未必一开始就是暴虐的。后来才逐渐带上“暴政”的负面含义。"
+  },
+  {
+    "english": "Sailors",
+    "chinese": "水手",
+    "image": "images/sailors.jpg",
+    "description": "在船上工作的人。在雅典等依赖海上力量和贸易的城邦，水手（例如在三列桨战舰上划桨的公民）是重要的军事和平民力量，对民主政治有影响。"
+  },
+  {
+    "english": "Merchants",
+    "chinese": "商人",
+    "image": "images/merchants.jpg",
+    "description": "从事贸易买卖的人。在古希腊，特别是雅典等商业繁荣的城邦，商人群体逐渐兴起，其经济实力有时会挑战旧有的土地贵族体系。"
+  },
+  {
+    "english": "Artisans",
+    "chinese": "工匠",
+    "image": "images/artisans.jpg",
+    "description": "指熟练的手工艺制作者，例如陶工、石匠、金属匠。他们是希腊城邦城市经济的重要组成部分，提供了各种必需品和奢侈品。"
+  },
+  {
+    "english": "Agitation",
+    "chinese": "鼓动",
+    "image": "images/agitation.jpg",
+    "description": "指为了促成政治或社会变革而煽动公众情绪、组织抗议或采取行动。例如，平民可能因不满而进行鼓动，要求改革或推翻现有统治。"
+  },
+  {
+    "english": "Political opportunist",
+    "chinese": "政治投机分子",
+    "image": "images/political_opportunist.jpg",
+    "description": "指为了追求个人政治权力或利益而利用特定时机或形势的人，可能并不真正关心所代表群体的长远利益。"
+  },
+  {
+    "english": "Exhort",
+    "chinese": "劝说",
+    "image": "images/exhort.jpg",
+    "description": "指强烈地规劝、鼓励或敦促他人去做某事。例如，古希腊的演说家可能在公民大会上慷慨陈词，劝说公民们支持某项政策或行动。"
+  },
+  {
+    "english": "Revolution",
+    "chinese": "革命",
+    "image": "images/revolution.jpg",
+    "description": "指导致政府或社会秩序发生根本性、通常是快速且可能伴随暴力的变革。古希腊的政体更迭有时虽激烈，但未必都符合现代革命的定义。"
+  },
+  {
+    "english": "Despot",
+    "chinese": "暴君",
+    "image": "images/despot.jpg",
+    "description": "指行使绝对权力、统治残酷专横的君主或统治者。古希腊的僭主（Tyrant）统治后期常被描述为专制暴政。"
+  },
+  {
+    "english": "Benevolent",
+    "chinese": "仁慈的",
+    "image": "images/benevolent.jpg",
+    "description": "指善良、有同情心、乐于助人的。有些希腊僭主在统治初期可能采取了一些对平民有利的措施，表现出一定的仁慈。"
+  },
+  {
+    "english": "Extinguished",
+    "chinese": "熄灭",
+    "image": "images/extinguished.jpg",
+    "description": "比喻终结、消灭或废除某事物。例如，某个统治家族的权力被终结，或某种政治制度（如僭主制在雅典）被废除。"
+  },
+  {
+    "english": "Contradictory",
+    "chinese": "矛盾的",
+    "image": "images/contradictory.jpg",
+    "description": "指包含相互冲突或不一致的陈述、信仰或方面。古希腊哲学常探讨逻辑矛盾（如芝诺悖论），现实政治（如雅典民主与其奴隶制）也充满矛盾。"
+  },
+  {
+    "english": "Affairs of the community",
+    "chinese": "社区事务",
+    "image": "images/athenian_democracy.jpg",
+    "description": "指城邦（polis）的公共生活和政治管理。积极参与社区事务被认为是古希腊公民（尤其是雅典公民）的重要职责和权利。"
+  },
+  {
+    "english": "Political reforms",
+    "chinese": "政治改革",
+    "image": "images/athenian_democracy.jpg",
+    "description": "指对现有政治制度、法律或权力结构进行的有计划的改变。梭伦和克里斯提尼在雅典推行的改革是古希腊史上重要的政治改革实例。"
+  },
+  {
+    "english": "Aristocratic organization",
+    "chinese": "贵族组织",
+    "image": "images/intellectual_foundations.jpg",
+    "description": "指以贵族阶层为主导的社会或政治结构。在许多早期希腊城邦，权力掌握在少数贵族家族手中，他们通过贵族会议等组织进行统治。"
+  },
+  {
+    "english": "Council of the Five Hundred",
+    "chinese": "五百人会议",
+    "image": "images/council_of_the_five_hundred.jpg",
+    "description": "也称“议事会”（Boule），由克里斯提尼在雅典设立。每年从十个部落中各抽签选出50人组成，负责为公民大会准备议程、处理日常行政事务，是雅典民主的核心机构之一。"
+  },
+  {
+    "english": "Legislation",
+    "chinese": "立法",
+    "image": "images/legislation.jpg",
+    "description": "指制定、修改或废除法律的过程或行为。在雅典民主制下，立法权最终属于全体公民大会（Ecclesia）。"
+  },
+  {
+    "english": "Tribes",
+    "chinese": "部落",
+    "image": "images/tribes.jpg",
+    "description": "在克里斯提尼改革后的雅典，指按地域划分的十个新行政单位，旨在打破旧有的基于血缘的氏族部落，促进公民融合和民主运作。"
+  },
+  {
+    "english": "Executive committees",
+    "chinese": "执行委员会",
+    "image": "images/athenian_democracy.jpg",
+    "description": "指负责执行法律或管理日常事务的委员会。在雅典，可能指五百人会议中轮流担任主席团（Prytany）的小组，负责处理紧急事务和召集会议。"
+  },
+  {
+    "english": "Wielding power",
+    "chinese": "行使权力",
+    "image": "images/wielding_power.jpg",
+    "description": "指实际掌握并运用政治权力或影响力。在古希腊，权力可能由国王、贵族、僭主、公民大会或官员等不同主体行使。"
+  },
+  {
+    "english": "Assembly of all citizens",
+    "chinese": "全体公民大会",
+    "image": "images/assembly_of_all_citizens.jpg",
+    "description": "指雅典的“埃克莱西亚”（Ecclesia），是所有成年男性公民都可以参加的最高权力机构，负责制定法律、选举官员、宣战媾和等重大决策。"
+  },
+  {
+    "english": "Jurisdiction",
+    "chinese": "司法管辖权",
+    "image": "images/jurisdiction.jpg",
+    "description": "指特定法庭或官员对某类案件或某个地域进行审判和裁决的法定权力。在雅典，不同的法庭（如阿瑞俄帕戈斯、陪审法庭）拥有不同的司法管辖权。"
+  },
+  {
+    "english": "Jury",
+    "chinese": "陪审团",
+    "image": "images/jury.jpg",
+    "description": "在雅典，指由大量公民（通常数百人）组成的陪审法庭（Dikasteria）。他们听取诉讼双方的陈述，并直接投票裁决案件，是雅典司法民主的重要体现。"
+  },
+  {
+    "english": "Inadequate",
+    "chinese": "不充分的",
+    "image": "images/inadequate.jpg",
+    "description": "指数量或质量上不足以满足需求或达到标准的。可能用于描述资源、准备、法律体系或政治措施的缺陷。"
+  },
+  {
+    "english": "Hinder",
+    "chinese": "阻碍",
+    "image": "images/hinder.jpg",
+    "description": "指制造困难，妨碍或延缓某事物的进展。例如，内部纷争可能阻碍城邦的发展，或旧势力可能阻碍改革。"
+  },
+  {
+    "english": "Efficiency",
+    "chinese": "效率",
+    "image": "images/efficiency.jpg",
+    "description": "指以最少的投入（时间、精力、资源）完成工作的能力。雅典的直接民主制度因其广泛参与和辩论过程，有时在决策效率上可能低于寡头或独裁政体。"
+  },
+  {
+    "english": "Corrupt",
+    "chinese": "腐败的",
+    "image": "images/corrupt.jpg",
+    "description": "指掌权者滥用职权、不诚实或进行非法行为以谋取私利。腐败是任何政治体制都可能面临的问题，古希腊也不例外。"
+  }
+]

@@ -1,0 +1,259 @@
+/* --- style.css --- */
+
+/* --- 通用页面样式 (可选) --- */
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7f6;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+    min-height: 100vh;
+}
+
+/* --- 主要游戏容器 --- */
+.game-container {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* text-align: center; -- Removed, let children handle text align */
+    max-width: 1200px; /* Allow wider container for side layout */
+    width: 100%;
+    /* Flex behavior added in media query */
+}
+
+/* --- NEW: Main Game Content Wrapper --- */
+#main-game-content {
+    /* Default: takes full width */
+    width: 100%;
+    /* Centering for controls/rows within this container */
+    text-align: center;
+}
+
+
+/* --- 分数与控制 --- */
+.controls {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.score-container {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #333;
+}
+
+#reset-button {
+    padding: 10px 18px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+#reset-button:hover {
+    background-color: #0056b3;
+}
+
+/* --- 已匹配词组容器 --- */
+#matched-pairs-container {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px dashed #d0d0d0;
+    border-radius: 8px;
+    min-height: 50px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+/* --- 合并后的词组样式 --- */
+.merged-pair {
+    display: inline-block;
+    background-color: #e2f0d9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #a8d08d;
+    font-size: 1.0em;
+    color: #3f621e;
+    cursor: pointer;
+    text-align: center;
+    line-height: 1.3;
+}
+.merged-pair .merged-english { font-weight: bold; display: block; }
+.merged-pair .merged-chinese { display: block; }
+
+
+/* --- 单词行 --- */
+.word-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 15px;
+    min-height: 45px;
+    gap: 8px;
+}
+
+/* --- 基础单词框样式 --- */
+.word-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 15px;
+    margin: 0;
+    border: 1.5px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.2em;
+    min-width: 70px;
+    min-height: 30px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.08);
+    transition: all 0.15s ease-in-out;
+    user-select: none;
+    position: relative;
+    line-height: 1.2;
+    box-sizing: border-box;
+}
+.word-content { display: block; }
+
+
+/* --- Word Box States (Initial, Hover, Selected, Shake) --- */
+.english-row .word-box:not(.selected):not(.placeholder) { border-color: #7a828a; color: #343a40; }
+.chinese-row .word-box:not(.selected):not(.placeholder) { border-color: #1aa1b9; color: #1aa1b9; }
+
+.english-row .word-box:not(.selected):not(.placeholder):hover { border-color: #343a40; color: #000; transform: translateY(-2px); box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1); }
+.chinese-row .word-box:not(.selected):not(.placeholder):hover { border-color: #138496; color: #0c5460; transform: translateY(-2px); box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1); }
+
+.word-box.selected { background-color: #fff3cd; border-color: #ffc107; color: #856404; transform: translateY(-1px); box-shadow: 2px 2px 4px rgba(255, 193, 7, 0.25); }
+
+.word-box.shake { animation: shake 0.4s cubic-bezier(.36,.07,.19,.97) both; border-color: #dc3545 !important; background-color: #f8d7da; color: #721c24; }
+@keyframes shake { 10%, 90% { transform: translateX(-1px); } 20%, 80% { transform: translateX(2px); } 30%, 50%, 70% { transform: translateX(-3px); } 40%, 60% { transform: translateX(3px); } }
+
+
+/* --- START: Permanent Hint Area Styles (Default - Bottom) --- */
+#permanent-hint-area {
+    margin-top: 25px; /* Space above when at the bottom */
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+    min-height: 100px;
+    width: 100%; /* Takes full width by default */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+#hint-placeholder { color: #888; font-style: italic; margin: 10px 0; display: block; }
+#hint-content-wrapper { text-align: center; display: none; }
+
+#hint-image {
+    height: auto;
+    max-width: 80%;
+    max-height: 250px; /* Default max height */
+    display: block;
+    margin: 0 auto 15px auto;
+    border-radius: 5px;
+    border: 1px solid #eee;
+}
+
+#hint-english { font-size: 1.4em; font-weight: bold; color: #333; margin: 5px 0; }
+#hint-chinese { font-size: 1.3em; color: #555; margin: 5px 0 0 0; }
+#hint-description { font-size: 1.0em; color: #6c757d; margin-top: 10px; line-height: 1.4; text-align: left; padding: 0 10px; max-width: 600px; margin-left: auto; margin-right: auto; display: none; }
+/* --- END: Permanent Hint Area Styles (Default - Bottom) --- */
+
+
+/* --- START: Responsive Adjustments (Tablets / Small Screens) --- */
+@media (max-width: 991px) { /* Styles for screens smaller than the wide layout breakpoint */
+    .game-container {
+        padding: 20px 15px;
+        max-width: 850px; /* Limit width slightly */
+    }
+
+    .word-row { gap: 8px; margin-bottom: 12px; }
+    .word-box { font-size: 1.3em; padding: 5px 8px; min-width: 0; min-height: 28px; line-height: 1.25; }
+    #matched-pairs-container { gap: 6px; padding: 8px; min-height: 40px; }
+    .merged-pair { font-size: 0.95em; padding: 4px 8px; }
+    .score-container { font-size: 1.2em; }
+    #reset-button { font-size: 0.95em; padding: 9px 15px; }
+
+    /* Hint Area adjustments for bottom layout on medium screens */
+    #permanent-hint-area { margin-top: 20px; padding: 12px; }
+    #hint-image { max-width: 75%; max-height: 200px; }
+    #hint-english { font-size: 1.3em; }
+    #hint-chinese { font-size: 1.2em; }
+    #hint-description { font-size: 0.95em; padding: 0 5px; }
+}
+
+@media (max-width: 480px) { /* Styles for small mobile screens */
+    .game-container { padding: 15px 10px; }
+    .word-row { gap: 6px; } /* Slightly smaller gap */
+    .word-box { font-size: 1.2em; padding: 8px 6px; }
+    #matched-pairs-container { gap: 4px; padding: 6px; }
+    .merged-pair { font-size: 0.9em; padding: 3px 6px; } /* Slightly smaller */
+    .score-container { font-size: 1.1em; }
+    #reset-button { font-size: 0.9em; padding: 8px 12px; }
+
+    /* Hint Area adjustments for bottom layout on small screens */
+    #permanent-hint-area { margin-top: 15px; padding: 10px; }
+    #hint-image { max-width: 70%; max-height: 180px; }
+    #hint-english { font-size: 1.2em; }
+    #hint-chinese { font-size: 1.1em; }
+    #hint-description { font-size: 0.9em; line-height: 1.35; }
+}
+/* --- END: Responsive Adjustments --- */
+
+
+/* --- START: Wide Screen Layout (Hint on the Side) --- */
+@media (min-width: 992px) {
+    .game-container {
+        display: flex;
+        align-items: flex-start; /* Align tops */
+        gap: 25px; /* Space between main content and hint area */
+        max-width: 1200px; /* Allow container to be wider */
+    }
+
+    #main-game-content {
+        flex: 2; /* Takes up 2/3 of the space (adjust ratio as needed) */
+        /* Or use basis: flex: 0 0 65%; */
+        width: auto; /* Override default 100% width */
+    }
+
+    #permanent-hint-area {
+        flex: 1; /* Takes up 1/3 of the space */
+        /* Or use basis: flex: 0 0 33%; */
+        width: auto; /* Override default 100% width */
+        margin-top: 0; /* Remove top margin used in bottom layout */
+        padding: 20px; /* Adjust padding if needed */
+        min-height: 300px; /* Example minimum height */
+
+        /* --- Sticky Positioning (Optional but Recommended) --- */
+        position: sticky;
+        top: 20px; /* Stick near the top after header/padding */
+        /* Limit height and allow scrolling within hint area if content overflows */
+        max-height: calc(100vh - 40px); /* Adjust based on top offset and desired bottom space */
+        overflow-y: auto; /* Add scrollbar if hint content is too tall */
+    }
+
+     /* Adjust hint image size for side view */
+    #hint-image {
+        max-width: 90%; /* Can be wider within its container */
+        max-height: 300px; /* Allow more height */
+    }
+    #hint-description {
+         max-width: none; /* Allow description to use available width */
+         padding: 0 5px; /* Minimal horizontal padding */
+    }
+}
+/* --- END: Wide Screen Layout --- */
